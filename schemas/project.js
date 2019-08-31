@@ -17,6 +17,21 @@ export default {
       title: 'Year'
     },
     {
+      name: 'location',
+      type: 'string',
+      title: 'Location'
+    },
+    {
+      name: 'client',
+      type: 'string',
+      title: 'Client (or context)'
+    },
+    {
+      name: 'collaborators',
+      type: 'string',
+      title: 'Collaborators'
+    },
+    {
       name: 'description',
       type: 'richText',
       title: 'Description'
