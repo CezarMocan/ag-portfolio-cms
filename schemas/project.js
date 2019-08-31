@@ -1,7 +1,10 @@
+import { GoTelescope } from 'react-icons/go'
+
 export default {
   name: 'project',
   type: 'document',
   title: 'Projects',
+  icon: GoTelescope,
   fields: [
     {
       name: 'title',
