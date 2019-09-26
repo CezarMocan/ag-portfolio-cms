@@ -37,6 +37,11 @@ export default {
       title: 'Description'
     },
     {
+      name: 'color',
+      type: 'color',
+      title: 'Display Color'
+    },
+    {
       name: 'images',
       type: 'array',
       of: [

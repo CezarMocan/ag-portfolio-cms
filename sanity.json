@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "ag-portfolio-cms"
+    "name": "Anthony Gagliardi—Portfolio"
   },
   "api": {
     "projectId": "if4se9qg",
@@ -13,7 +13,8 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "@sanity/vision"
+    "@sanity/vision",
+    "@sanity/color-input"
   ],
   "parts": [
     {
