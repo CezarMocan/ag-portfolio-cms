@@ -1,10 +1,10 @@
-import { GoTelescope } from 'react-icons/go'
+import { IoIosAperture } from 'react-icons/io'
 
 export default {
   name: 'project',
   type: 'document',
   title: 'Projects',
-  icon: GoTelescope,
+  icon: IoIosAperture,
   fields: [
     {
       name: 'title',
@@ -39,7 +39,7 @@ export default {
     {
       name: 'color',
       type: 'color',
-      title: 'Display Color'
+      title: 'Project Highlight Color'
     },
     {
       name: 'images',
