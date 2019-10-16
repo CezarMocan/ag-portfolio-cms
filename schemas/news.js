@@ -17,7 +17,12 @@ export default {
         type: 'string',
         title: 'Display Title',
         description: `This is what appears in the top-left corner for the landing page only.`
-    },  
+    },
+    {
+      name: 'color',
+      type: 'color',
+      title: 'News Highlight Color'
+    },
     {
         name: 'items',
         type: 'array',
@@ -32,14 +37,8 @@ export default {
             title: 'Text Block',
             fields: [
                 {
-                    name: 'title',
-                    type: 'string',
-                    title: 'Display Title',
-                    description: `This field is for the admin interface only.`            
-                },
-                {
                     name: 'text',
-                    type: 'richText'
+                    type: 'string'
                 }
             ]
           }
