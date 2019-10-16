@@ -41,6 +41,6 @@ export default {
     },
   ],
   options: {
-    metadata: ['dimensions', 'palette', 'lqip']
+    metadata: ['palette', 'lqip']
   }
 }
