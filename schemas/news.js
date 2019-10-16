@@ -21,7 +21,8 @@ export default {
     {
       name: 'color',
       type: 'color',
-      title: 'News Highlight Color'
+      title: 'News Highlight Color',
+      description: `The highlight color for images and text blocks on the landing page.`
     },
     {
         name: 'items',
