@@ -7,15 +7,15 @@ export default {
   icon: IoIosAperture,
   fields: [
     {
+      name: 'title',
+      type: 'string',
+      title: 'Project Title'
+    },    
+    {
       name: 'url',
       type: 'string',
       title: 'Project URL',
       description: 'This is what goes after http://avg.studio/ in the URL.'
-    },    
-    {
-      name: 'title',
-      type: 'string',
-      title: 'Project Title'
     },    
     {
       name: 'year',
@@ -90,6 +90,7 @@ export default {
     }
   ],
   initialValue: () => ({
-    url: 'your-url-here'
+    url: 'your-url-here',
+    title: 'Unpublished Project'
   })
 }
