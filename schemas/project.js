@@ -7,6 +7,12 @@ export default {
   icon: IoIosAperture,
   fields: [
     {
+      name: 'url',
+      type: 'string',
+      title: 'Project URL',
+      description: 'This is what goes after http://avg.studio/ in the URL.'
+    },    
+    {
       name: 'title',
       type: 'string',
       title: 'Project Title'
@@ -82,5 +88,8 @@ export default {
         { field: 'orderNumber', direction: 'asc' }
       ]
     }
-  ]
+  ],
+  initialValue: () => ({
+    url: 'your-url-here'
+  })
 }
