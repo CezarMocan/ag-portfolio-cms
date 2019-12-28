@@ -19,12 +19,6 @@ export default {
         description: `This is what appears in the top-left corner for the landing page only.`
     },
     {
-      name: 'color',
-      type: 'color',
-      title: 'News Highlight Color',
-      description: `The highlight color for images and text blocks on the landing page.`
-    },
-    {
         name: 'items',
         type: 'array',
         description: `These are the blocks that will be placed on the landing page.`,

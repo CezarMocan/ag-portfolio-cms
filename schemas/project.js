@@ -65,11 +65,6 @@ export default {
       `
     },
     {
-      name: 'color',
-      type: 'color',
-      title: 'Project Highlight Color'
-    },
-    {
       name: 'images',
       type: 'array',
       of: [
