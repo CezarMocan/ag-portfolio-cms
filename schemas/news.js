@@ -28,14 +28,8 @@ export default {
             title: 'Image'
           },
           {
-            type: 'object',
-            title: 'Text Block',
-            fields: [
-                {
-                    name: 'text',
-                    type: 'string'
-                }
-            ]
+            type: 'richTextContainer',
+            title: 'Text'
           }
         ]
     }

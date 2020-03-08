@@ -26,17 +26,17 @@ export default {
     {
       name: 'minScale',
       type: 'number',
-      title: 'Minimum Display Scale',
-      description: `A value between 0 and 1 representing the minimum width of the
-        current image with respect to the screen width. 1 means full screen.
+      title: 'Minimum Display Scale (%)',
+      description: `A value between 0 and 100 representing the minimum width of the
+        current image with respect to the screen width. 100 means full screen.
       `
     },
     {
       name: 'maxScale',
       type: 'number',
-      title: 'Maximum Display Scale',
-      description: `A value between 0 and 1 representing the maximum width of the
-        current image with respect to the screen width. 1 means full screen.
+      title: 'Maximum Display Scale (%)',
+      description: `A value between 0 and 100 representing the maximum width of the
+        current image with respect to the screen width. 100 means full screen.
       `
     },
   ],
