@@ -6,7 +6,7 @@ export default {
     {
       type: 'block',
       marks: {
-        annotations: [
+        annotations: [         
           {
             name: 'link',
             type: 'object',
@@ -14,13 +14,14 @@ export default {
             fields: [
               {
                 name: 'href',
-                type: 'url',
-                title: 'URL'
+                type: 'string',
+                title: 'URL',
+                // validation: Rule => Rule
               },
               {
                 title: 'Open in new tab',
                 name: 'blank',
-                description: 'Read https://css-tricks.com/use-target_blank/',
+                description: '',
                 type: 'boolean',
                 value: 'true'
               }

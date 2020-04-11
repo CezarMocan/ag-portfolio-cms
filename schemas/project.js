@@ -18,9 +18,18 @@ export default {
     },    
     {
       name: 'url',
-      type: 'string',
+      type: 'slug',
       title: 'Project URL',
-      description: 'This is what goes after http://avg.studio/ in the URL.'
+      description: 'This is what goes after http://avg.studio/ in the URL.',
+      options: {
+        source: 'title',
+        maxLength: 200, // will be ignored if slugify is set
+        slugify: input => input
+                             .toLowerCase()
+                             .replace(/\s+/g, '-')
+                             .replace(/[^a-zA-Z0-9 -]/g, '')
+                             .slice(0, 200)
+      }
     },    
     {
       name: 'orderNumber',

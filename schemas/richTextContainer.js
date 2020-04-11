@@ -36,6 +36,12 @@ export default {
         `
       },
       {
+        name: 'isSmallText',
+        type: 'boolean',
+        value: false,
+        description: 'Turning this on will present the text with a smaller font size.'
+      },
+      {
           name: 'text',
           type: 'richText'
       }
