@@ -14,7 +14,8 @@
     "@sanity/default-login",
     "@sanity/desk-tool",
     "@sanity/vision",
-    "@sanity/color-input"
+    "@sanity/color-input",
+    "mux-input"
   ],
   "parts": [
     {

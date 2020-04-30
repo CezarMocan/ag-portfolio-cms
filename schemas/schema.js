@@ -11,6 +11,7 @@ import newsSchema from './news'
 import richTextSchema from './richText'
 import richTextContainerSchema from './richTextContainer'
 import projectImageSchema from './projectImage'
+import projectVideoSchema from './projectVideo'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -24,6 +25,7 @@ export default createSchema({
     projectSchema,
     richTextSchema,
     richTextContainerSchema,
-    projectImageSchema
+    projectImageSchema,
+    projectVideoSchema
   ])
 })

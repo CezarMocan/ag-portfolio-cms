@@ -48,6 +48,10 @@ export default {
         {
           type: 'richTextContainer',
           title: 'Text'
+        },
+        {
+          type: 'projectVideo',
+          title: 'Video'
         }
       ]
     }
