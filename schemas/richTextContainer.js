@@ -39,7 +39,8 @@ export default {
         name: 'isSmallText',
         type: 'boolean',
         value: false,
-        description: 'Turning this on will present the text with a smaller font size.'
+        title: 'Highlighted Text',
+        description: 'Turning this on will present the text with a larger font size.'
       },
       {
           name: 'text',
