@@ -7,6 +7,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 // Custom defined schemas
 import projectSchema from './project'
 import aboutSchema from './about'
+import pressSchema from './press'
 import filesSchema from './files'
 import newsSchema from './news'
 import richTextSchema from './richText'
@@ -22,6 +23,7 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     aboutSchema,
+    pressSchema,
     filesSchema,
     newsSchema,
     projectSchema,

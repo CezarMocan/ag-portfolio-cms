@@ -25,5 +25,12 @@ export default () =>
             .schemaType('news')
             .documentId('newsPage')
         ),
-      ...S.documentTypeListItems().filter(listItem => !['about', 'files', 'news'].includes(listItem.getId()))
+        S.listItem()
+        .title('Press Mentions')
+        .child(
+          S.document()
+            .schemaType('press')
+            .documentId('pressPage')
+        ),
+      ...S.documentTypeListItems().filter(listItem => !['about', 'files', 'news', 'press'].includes(listItem.getId()))
     ])
