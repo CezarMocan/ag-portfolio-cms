@@ -9,20 +9,21 @@
   "scripts": {
     "start": "sanity start",
     "test": "sanity check",
-    "deploy": "sanity login && sanity deploy"
+    "deploy": "sanity login && sanity deploy",
+    "build": "sanity build"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^1.149.15",
-    "@sanity/color-input": "^1.149.7",
-    "@sanity/components": "^1.149.15",
-    "@sanity/core": "^1.149.13",
-    "@sanity/default-layout": "^1.149.15",
-    "@sanity/default-login": "^1.149.11",
-    "@sanity/desk-tool": "^1.149.15",
-    "@sanity/vision": "^1.149.0",
+    "@sanity/base": "^2.1.6",
+    "@sanity/color-input": "^2.1.4",
+    "@sanity/components": "^2.1.4",
+    "@sanity/core": "^2.1.4",
+    "@sanity/default-layout": "^2.1.6",
+    "@sanity/default-login": "^2.1.4",
+    "@sanity/desk-tool": "^2.1.6",
+    "@sanity/vision": "^2.1.4",
     "postcss": "^7.0.30",
     "prop-types": "^15.6",
     "react": "^16.2",
