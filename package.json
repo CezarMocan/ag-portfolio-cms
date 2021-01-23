@@ -9,7 +9,10 @@
   "scripts": {
     "start": "sanity start",
     "test": "sanity check",
-    "deploy": "sanity login && sanity deploy",
+    "deploy:sanity": "sanity login && sanity deploy",
+    "deploy:avg": "npm run build && npm run sync:s3",
+    "sync:s3": "AWS_DEFAULT_PROFILE=cezar-cli aws s3 sync dist s3://cms.avg.studio",
+    "invalidate:distribution": "AWS_DEFAULT_PROFILE=cezar-cli aws cloudfront create-invalidation --distribution-id E2MIZPWOSL49B6 --paths \"/*\"",
     "build": "sanity build"
   },
   "keywords": [
