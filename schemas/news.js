@@ -42,8 +42,4 @@ export default {
         ]
     }
   ],
-  // preview: {
-  //     title: 'title'
-  //     // subtitle: 'McTestFace'
-  // }
 }

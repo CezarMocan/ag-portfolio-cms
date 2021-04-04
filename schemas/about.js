@@ -20,8 +20,4 @@ export default {
       title: 'About You'
     },
   ],
-  // preview: {
-  //     title: 'title'
-  //     // subtitle: 'McTestFace'
-  // }
 }
